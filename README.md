@@ -1,4 +1,4 @@
-# Hi there 👋  
+# Hi there<img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/>  
 I’m Matvey, a Data Science & Business Analytics student from Moscow, driven by a mission to **build impactful, scalable businesses** and harness data to solve real-world problems.  
 
 I specialize in transforming **data, technology, and strategy** into solutions that generate measurable results. My focus spans **Web3, AI, fintech, and real estate innovation**, backed by strong expertise in Python, C++, and analytics.  
