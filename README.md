@@ -1,100 +1,61 @@
-<a name="top"></a>
+<div align="center">
+
+<img alt="m1cch" src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=30&duration=4000&pause=1000&color=8B8B8B&center=true&vCenter=true&width=760&height=90&lines=m1cch" />
+
+<img alt="tagline" src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=3500&pause=900&color=8B8B8B&center=true&vCenter=true&width=760&height=28&lines=founder+%2F+data+scientist+%2F+builder;ai+.+fintech+.+web3+.+proptech;turning+data+into+products+that+ship" />
+
+</div>
+
+## about
+
+```text
+$ whoami
+matvey (m1cch) — founder & data scientist, moscow
+
+$ focus
+ai · fintech · web3 · proptech
+
+$ mission
+turn data into products that ship
+```
+
+## stack
+
+```text
+languages    python   c++   typescript   swift   bash
+data / ml    scikit-learn   pytorch   tensorflow   pandas   numpy
+web / infra  next.js   react   fastapi   node   postgres   docker
+```
+
+## stats
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=210&section=header&text=Matvey%20%C2%B7%20m1cch&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=42" alt="header"/>
+<img height="150" alt="stats" src="https://github-readme-stats.vercel.app/api?username=m1cch&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=8B8B8B&icon_color=8B8B8B&text_color=8B8B8B&bg_color=00000000&rank_icon=github" />
+<img height="150" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m1cch&layout=compact&langs_count=8&hide_border=true&title_color=8B8B8B&text_color=8B8B8B&bg_color=00000000" />
+
+</div>
+
+## contributions
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/output/snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/m1cch/m1cch/output/snake-light.svg" />
+</picture>
+
+</div>
+
+## links
+
+<div align="center">
+
+<a href="https://x.com/m1cch_"><img alt="x" src="https://img.shields.io/badge/x-000000?style=flat-square&logo=x&logoColor=white" /></a>
+<a href="https://github.com/m1cch"><img alt="github" src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white" /></a>
 
 </div>
 
 <div align="center">
-
-<a href="https://x.com/m1cch_">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=820&height=52&lines=Data+Science+%26+Business+Analytics;Founder+%7C+I+build+and+scale+ventures;AI+%7C+Fintech+%7C+Web3+%7C+PropTech;Turning+data+into+decisions+that+ship" alt="typing"/>
-</a>
-
-</div>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=m1cch&label=Profile%20views&color=A78BFA&style=for-the-badge" alt="views"/>
-<img src="https://img.shields.io/github/followers/m1cch?label=Followers&style=for-the-badge&color=22D3EE&labelColor=0D1117" alt="followers"/>
-<a href="https://x.com/m1cch_"><img src="https://img.shields.io/badge/X-%40m1cch__-000000?style=for-the-badge&logo=x&logoColor=white" alt="x"/></a>
-
-</div>
-
-## 🚀 About Me
-
-- 🎯 **Founder & builder** — I turn ambitious ideas into products that ship.
-- 📊 **Data Science & Business Analytics** student based in Moscow.
-- 🧠 Focused on **AI · Fintech · Web3 · PropTech** — where data meets real impact.
-- 🛠️ I work across the stack: **Python · C++ · TypeScript / Next.js · FastAPI · Swift**.
-- 🌱 Currently building ventures at the intersection of **AI and business**.
-- 💬 Ask me about **data, ML, product, and 0→1 execution**.
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,swift,bash&theme=dark" alt="languages"/>
-
-**Data / ML**
-
-<img src="https://skillicons.dev/icons?i=sklearn,pytorch,tensorflow,anaconda,postgres,supabase&theme=dark" alt="data-ml"/>
-
-**Web / Infra**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,tailwind,threejs,docker,vercel,git,linux,figma&theme=dark" alt="web-infra"/>
-
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=m1cch&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=C9D1D9&bg_color=0D1117&rank_icon=github" alt="stats"/>
-<img height="165" src="https://streak-stats.demolab.com?user=m1cch&hide_border=true&background=0D1117&stroke=30363D&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&excludeDaysLabel=8B949E" alt="streak"/>
-
-</div>
-
-## 🧬 Most Used Languages
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m1cch&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=C9D1D9&bg_color=0D1117" alt="top-languages"/>
-
-</div>
-
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=m1cch&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies"/>
-
-</div>
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=m1cch&bg_color=0D1117&color=22D3EE&line=A78BFA&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="activity-graph"/>
-
-</div>
-
-## 💭 Dev Quote
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="dev-quote"/>
-
-</div>
-
-## 🤝 Connect
-
-<div align="center">
-
-<a href="https://x.com/m1cch_"><img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="x"/></a>
-<a href="https://github.com/m1cch"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
-
+<sub>built in the terminal</sub>
 </div>

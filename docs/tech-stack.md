@@ -1,12 +1,12 @@
-# 🛠️ Tech Stack — deep dive
+# Tech Stack — deep dive
 
 A closer look at the tools I reach for.
 
 ## Languages
-- **Python** — data science, ML, backends (FastAPI), automation, bots.
-- **C++** — performance-critical work and algorithms.
-- **TypeScript / JavaScript** — Next.js apps and web tooling.
-- **Swift** — native iOS apps.
+- Python — data science, ML, backends (FastAPI), automation, bots.
+- C++ — performance-critical work and algorithms.
+- TypeScript / JavaScript — Next.js apps and web tooling.
+- Swift — native iOS apps.
 
 ## Data & ML
 - scikit-learn, PyTorch, TensorFlow for modelling.
@@ -22,4 +22,4 @@ A closer look at the tools I reach for.
 ## Ways of working
 - Ship fast, measure, iterate.
 - Data-informed product decisions.
-- 0 → 1 execution.
+- 0 to 1 execution.

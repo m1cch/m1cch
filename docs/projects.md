@@ -1,4 +1,4 @@
-# 📦 Featured public projects
+# Featured public projects
 
 A few things I've built in the open:
 
