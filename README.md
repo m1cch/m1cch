@@ -89,3 +89,12 @@
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="dev-quote"/>
 
 </div>
+
+## 🤝 Connect
+
+<div align="center">
+
+<a href="https://x.com/m1cch_"><img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="x"/></a>
+<a href="https://github.com/m1cch"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
+
+</div>
