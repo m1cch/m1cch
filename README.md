@@ -73,3 +73,11 @@
 <img src="https://github-profile-trophy.vercel.app/?username=m1cch&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies"/>
 
 </div>
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=m1cch&bg_color=0D1117&color=22D3EE&line=A78BFA&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="activity-graph"/>
+
+</div>
