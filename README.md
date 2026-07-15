@@ -19,22 +19,55 @@ $ mission
 turn data into products that ship
 ```
 
+## languages
+
+```text
+typescript   ███████████░░░░░░░░░░░░░░░  40.7%
+python       ████████░░░░░░░░░░░░░░░░░░  32.4%
+swift        ██░░░░░░░░░░░░░░░░░░░░░░░░   8.5%
+javascript   ██░░░░░░░░░░░░░░░░░░░░░░░░   7.6%
+css          █░░░░░░░░░░░░░░░░░░░░░░░░░   4.7%
+html         █░░░░░░░░░░░░░░░░░░░░░░░░░   4.3%
+other        ░░░░░░░░░░░░░░░░░░░░░░░░░░  <1%   rust · c · c++ · go · shell · sql · tex · jinja
+```
+
+<div align="center"><sub>measured across 66 repositories</sub></div>
+
 ## stack
 
 ```text
-languages    python   c++   typescript   swift   bash
-data / ml    scikit-learn   pytorch   tensorflow   pandas   numpy
-web / infra  next.js   react   fastapi   node   postgres   docker
+languages     python · typescript · javascript · swift · c · c++ · rust · go · sql · bash
+ai / ml       pytorch · tensorflow · scikit-learn · xgboost · lightgbm · keras · opencv
+              huggingface transformers · numpy · pandas · scipy · statsmodels · nltk · spacy
+llm / genai   openrouter · openai · anthropic claude · rag · embeddings · fastembed · chromadb
+              pgvector · umap · semantic search · multi-agent · function calling · prompt eng.
+data          postgresql · supabase · sqlite · redis · minio / s3 · jupyter · matplotlib · plotly
+backend       fastapi · flask · node.js · express · rest · websockets · celery · pydantic
+frontend      next.js · react · three.js · react-three-fiber · tailwind · gsap · lenis · vite
+mobile        swift · swiftui
+bots / rt     aiogram · telethon · livekit · webrtc
+infra         docker · vercel · nginx · pm2 · linux · systemd · git · github actions · cloudflare
 ```
 
-## stats
+## methods
 
-<div align="center">
-
-<img height="150" alt="stats" src="https://github-readme-stats.vercel.app/api?username=m1cch&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=8B8B8B&icon_color=8B8B8B&text_color=8B8B8B&bg_color=00000000&rank_icon=github" />
-<img height="150" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m1cch&layout=compact&langs_count=8&hide_border=true&title_color=8B8B8B&text_color=8B8B8B&bg_color=00000000" />
-
-</div>
+```text
+data science   eda · feature engineering · data cleaning · sampling · statistics · a/b testing
+               hypothesis testing · probability · bayesian inference · experiment design
+ml             supervised · unsupervised · classification · regression · clustering
+               ensembles: random forest · extra-trees · gradient boosting (xgboost / lightgbm)
+               cross-validation · hyperparameter tuning · regularization · imbalanced data
+               metrics: macro-f1 · roc-auc · precision / recall · calibration
+deep learning  neural nets · cnn · rnn · lstm · transformers · attention · transfer learning
+               embeddings · autoencoders · sequence models · fine-tuning
+nlp            tokenization · n-grams · tf-idf · word / sentence embeddings · text classification
+dim-reduction  pca · svd · umap · t-sne · manifold learning
+topology/math  topological data analysis · wishart clustering · linear algebra · optimization
+ai systems     retrieval-augmented generation · agents · tool use · knowledge graphs · vector search
+programming    data structures · algorithms · complexity · oop · functional · async / concurrency
+               design patterns · clean architecture · api design · sql modeling
+practices      git · ci/cd · testing · code review · docker · agile · 0→1 product · analytics-driven
+```
 
 ## contributions
 
