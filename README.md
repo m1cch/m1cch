@@ -65,3 +65,11 @@
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m1cch&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=C9D1D9&bg_color=0D1117" alt="top-languages"/>
 
 </div>
+
+## 🏆 Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=m1cch&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies"/>
+
+</div>
