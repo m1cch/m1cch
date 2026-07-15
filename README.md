@@ -30,3 +30,21 @@
 - 🛠️ I work across the stack: **Python · C++ · TypeScript / Next.js · FastAPI · Swift**.
 - 🌱 Currently building ventures at the intersection of **AI and business**.
 - 💬 Ask me about **data, ML, product, and 0→1 execution**.
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,swift,bash&theme=dark" alt="languages"/>
+
+**Data / ML**
+
+<img src="https://skillicons.dev/icons?i=sklearn,pytorch,tensorflow,anaconda,postgres,supabase&theme=dark" alt="data-ml"/>
+
+**Web / Infra**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,tailwind,threejs,docker,vercel,git,linux,figma&theme=dark" alt="web-infra"/>
+
+</div>
