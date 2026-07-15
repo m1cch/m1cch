@@ -1,10 +1,12 @@
-<div align="center">
-
-<img alt="m1cch" src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=30&duration=2500&pause=9000000&repeat=false&color=8B8B8B&center=true&vCenter=true&width=760&height=90&lines=m1cch" />
-
-<img alt="tagline" src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=3500&pause=900&color=8B8B8B&center=true&vCenter=true&width=760&height=28&lines=founder+%2F+data+scientist+%2F+builder;ai+.+fintech+.+web3+.+proptech;turning+data+into+products+that+ship" />
-
-</div>
+```
+██     ██    ██    ██████   ██████  ██     ██
+███   ███  ████   ██    ██ ██    ██ ██     ██
+████ ████    ██   ██       ██       ██     ██
+██ ███ ██    ██   ██       ██       █████████
+██     ██    ██   ██       ██       ██     ██
+██     ██    ██   ██    ██ ██    ██ ██     ██
+██     ██  ██████  ██████   ██████  ██     ██
+```
 
 ## about
 
