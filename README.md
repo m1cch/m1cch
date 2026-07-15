@@ -13,3 +13,11 @@
 </a>
 
 </div>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=m1cch&label=Profile%20views&color=A78BFA&style=for-the-badge" alt="views"/>
+<img src="https://img.shields.io/github/followers/m1cch?label=Followers&style=for-the-badge&color=22D3EE&labelColor=0D1117" alt="followers"/>
+<a href="https://x.com/m1cch_"><img src="https://img.shields.io/badge/X-%40m1cch__-000000?style=for-the-badge&logo=x&logoColor=white" alt="x"/></a>
+
+</div>
