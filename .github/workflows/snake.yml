@@ -16,14 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
+      - name: Generate monochrome snake SVGs
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=#22D3EE&color_dots=#0d1117,#4b91f1,#8dbdff,#a78bfa,#22d3ee
+            dist/snake-light.svg?color_snake=#24292f&color_dots=#ebedf0,#c6cbd1,#8b949e,#57606a,#24292f
+            dist/snake-dark.svg?color_snake=#ffffff&color_dots=#161b22,#30363d,#6e7681,#b1bac4,#ffffff
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
