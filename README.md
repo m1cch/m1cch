@@ -21,3 +21,12 @@
 <a href="https://x.com/m1cch_"><img src="https://img.shields.io/badge/X-%40m1cch__-000000?style=for-the-badge&logo=x&logoColor=white" alt="x"/></a>
 
 </div>
+
+## 🚀 About Me
+
+- 🎯 **Founder & builder** — I turn ambitious ideas into products that ship.
+- 📊 **Data Science & Business Analytics** student based in Moscow.
+- 🧠 Focused on **AI · Fintech · Web3 · PropTech** — where data meets real impact.
+- 🛠️ I work across the stack: **Python · C++ · TypeScript / Next.js · FastAPI · Swift**.
+- 🌱 Currently building ventures at the intersection of **AI and business**.
+- 💬 Ask me about **data, ML, product, and 0→1 execution**.
