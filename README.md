@@ -48,3 +48,12 @@
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,tailwind,threejs,docker,vercel,git,linux,figma&theme=dark" alt="web-infra"/>
 
 </div>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=m1cch&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=C9D1D9&bg_color=0D1117&rank_icon=github" alt="stats"/>
+<img height="165" src="https://streak-stats.demolab.com?user=m1cch&hide_border=true&background=0D1117&stroke=30363D&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&excludeDaysLabel=8B949E" alt="streak"/>
+
+</div>
