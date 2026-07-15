@@ -81,3 +81,11 @@
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=m1cch&bg_color=0D1117&color=22D3EE&line=A78BFA&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="activity-graph"/>
 
 </div>
+
+## 💭 Dev Quote
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="dev-quote"/>
+
+</div>
