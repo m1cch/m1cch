@@ -57,3 +57,11 @@
 <img height="165" src="https://streak-stats.demolab.com?user=m1cch&hide_border=true&background=0D1117&stroke=30363D&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&excludeDaysLabel=8B949E" alt="streak"/>
 
 </div>
+
+## 🧬 Most Used Languages
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m1cch&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=C9D1D9&bg_color=0D1117" alt="top-languages"/>
+
+</div>
