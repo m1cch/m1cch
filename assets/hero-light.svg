@@ -19,7 +19,7 @@
 <text x="474.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.2">LSTM PARAMS</text>
 <text x="474.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" letter-spacing="0.2">perplexity 164 → 98</text>
 <rect x="667.0" y="150.0" width="193.0" height="94.0" fill="#f6f8fa" stroke="#d0d7de" rx="8" />
-<text x="683.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#1f2328" font-weight="600" letter-spacing="-0.5">737</text>
+<text x="683.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#1f2328" font-weight="600" letter-spacing="-0.5">733</text>
 <text x="683.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.2">CONTRIBUTIONS</text>
 <text x="683.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" letter-spacing="0.2">last 12 months</text>
 <text x="40.0" y="292.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.6">LANGUAGES</text>
@@ -63,8 +63,8 @@
 <rect x="775.5" y="401.5" width="23.2" height="12.5" fill="#1f2328" rx="2" opacity="0.6" />
 <rect x="804.7" y="310.0" width="23.2" height="104.0" fill="#1f2328" rx="2" opacity="0.6" />
 <text x="816.3" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">jul</text>
-<rect x="833.8" y="360.3" width="23.2" height="53.7" fill="#1f2328" rx="2" opacity="0.6" />
-<path d="M524.6,413.4 L553.8,412.7 L582.9,412.7 L612.1,412.7 L641.2,412.7 L670.4,412.7 L699.6,407.4 L728.8,406.5 L757.9,404.7 L787.1,397.8 L816.3,340.1 L845.4,310.3" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
+<rect x="833.8" y="361.6" width="23.2" height="52.4" fill="#1f2328" rx="2" opacity="0.6" />
+<path d="M524.6,413.4 L553.8,412.7 L582.9,412.7 L612.1,412.7 L641.2,412.7 L670.4,412.7 L699.6,407.3 L728.8,406.3 L757.9,404.5 L787.1,397.5 L816.3,339.5 L845.4,310.3" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
 <circle cx="845.4" cy="310.3" r="3" fill="#3fb950" />
 <text x="510.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">monthly bars · cumulative line</text>
 <text x="860.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" text-anchor="end">peak 409</text>
