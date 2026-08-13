@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img">
+<title>MATVEY SAFONOV — ml &amp; systems engineer</title>
+<rect x="0.5" y="0.5" width="899.0" height="519.0" fill="#0d1117" stroke="#30363d" rx="14" />
+<text x="40.0" y="78.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" fill="#e6edf3" font-weight="700" letter-spacing="1.5">MATVEY SAFONOV</text>
+<text x="40.0" y="104.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" fill="#7d8590" letter-spacing="0.3">ml &amp; systems engineer  ·  hse university · dsba  ·  moscow</text>
+<rect x="40.0" y="126.0" width="820.0" height="1.0" fill="#21262d" />
+<circle cx="860.0" cy="70" r="5" fill="#3fb950" />
+<text x="844.0" y="74.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#7d8590" letter-spacing="0.6" text-anchor="end">available</text>
+<rect x="40.0" y="150.0" width="193.0" height="94.0" fill="#161b22" stroke="#30363d" rx="8" />
+<text x="56.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#e6edf3" font-weight="600" letter-spacing="-0.5">0.978</text>
+<text x="56.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.2">MACRO-F1</text>
+<text x="56.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" letter-spacing="0.2">bacteria genome, 5-class</text>
+<rect x="249.0" y="150.0" width="193.0" height="94.0" fill="#161b22" stroke="#30363d" rx="8" />
+<text x="265.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#e6edf3" font-weight="600" letter-spacing="-0.5">1.40</text>
+<text x="265.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.2">COHEN'S D</text>
+<text x="265.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" letter-spacing="0.2">human vs bot · p=4.6e-07</text>
+<rect x="458.0" y="150.0" width="193.0" height="94.0" fill="#161b22" stroke="#30363d" rx="8" />
+<text x="474.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#e6edf3" font-weight="600" letter-spacing="-0.5">17s</text>
+<text x="474.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.2">FIT TIME</text>
+<text x="474.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" letter-spacing="0.2">90k x 286 · 60s budget</text>
+<rect x="667.0" y="150.0" width="193.0" height="94.0" fill="#161b22" stroke="#30363d" rx="8" />
+<text x="683.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#e6edf3" font-weight="600" letter-spacing="-0.5">733</text>
+<text x="683.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.2">CONTRIBUTIONS</text>
+<text x="683.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" letter-spacing="0.2">last 12 months</text>
+<text x="40.0" y="292.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.6">LANGUAGES</text>
+<text x="510.0" y="292.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.6">ACTIVITY</text>
+<text x="40.0" y="319.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#e6edf3" opacity="0.9">python</text>
+<rect x="136.0" y="310.0" width="288.0" height="8.0" fill="#21262d" rx="4" />
+<rect x="136.0" y="310.0" width="134.6" height="8.0" fill="#3572A5" rx="4" />
+<text x="470.0" y="319.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#7d8590" text-anchor="end">46.7%</text>
+<text x="40.0" y="345.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#e6edf3" opacity="0.9">typescript</text>
+<rect x="136.0" y="336.0" width="288.0" height="8.0" fill="#21262d" rx="4" />
+<rect x="136.0" y="336.0" width="68.0" height="8.0" fill="#3178c6" rx="4" />
+<text x="470.0" y="345.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#7d8590" text-anchor="end">23.6%</text>
+<text x="40.0" y="371.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#e6edf3" opacity="0.9">html</text>
+<rect x="136.0" y="362.0" width="288.0" height="8.0" fill="#21262d" rx="4" />
+<rect x="136.0" y="362.0" width="36.2" height="8.0" fill="#e34c26" rx="4" />
+<text x="470.0" y="371.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#7d8590" text-anchor="end">12.6%</text>
+<text x="40.0" y="397.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#e6edf3" opacity="0.9">swift</text>
+<rect x="136.0" y="388.0" width="288.0" height="8.0" fill="#21262d" rx="4" />
+<rect x="136.0" y="388.0" width="20.2" height="8.0" fill="#F05138" rx="4" />
+<text x="470.0" y="397.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#7d8590" text-anchor="end">7.0%</text>
+<text x="40.0" y="423.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#e6edf3" opacity="0.9">javascript</text>
+<rect x="136.0" y="414.0" width="288.0" height="8.0" fill="#21262d" rx="4" />
+<rect x="136.0" y="414.0" width="12.7" height="8.0" fill="#f1e05a" rx="4" />
+<text x="470.0" y="423.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#7d8590" text-anchor="end">4.4%</text>
+<text x="40.0" y="456.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58">bytes of code across public repositories · 995 KB</text>
+<rect x="510.0" y="414.0" width="350.0" height="1.0" fill="#21262d" />
+<rect x="513.0" y="412.0" width="23.2" height="2.0" fill="#e6edf3" rx="2" opacity="0.6" />
+<text x="524.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">sep</text>
+<rect x="542.2" y="412.0" width="23.2" height="2.0" fill="#e6edf3" rx="2" opacity="0.6" />
+<rect x="571.3" y="412.0" width="23.2" height="2.0" fill="#484f58" rx="2" opacity="0.25" />
+<text x="582.9" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">nov</text>
+<rect x="600.5" y="412.0" width="23.2" height="2.0" fill="#484f58" rx="2" opacity="0.25" />
+<rect x="629.7" y="412.0" width="23.2" height="2.0" fill="#484f58" rx="2" opacity="0.25" />
+<text x="641.2" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">jan</text>
+<rect x="658.8" y="412.0" width="23.2" height="2.0" fill="#484f58" rx="2" opacity="0.25" />
+<rect x="688.0" y="404.3" width="23.2" height="9.7" fill="#e6edf3" rx="2" opacity="0.6" />
+<text x="699.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">mar</text>
+<rect x="717.2" y="412.0" width="23.2" height="2.0" fill="#e6edf3" rx="2" opacity="0.6" />
+<rect x="746.3" y="410.7" width="23.2" height="3.3" fill="#e6edf3" rx="2" opacity="0.6" />
+<text x="757.9" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">may</text>
+<rect x="775.5" y="401.5" width="23.2" height="12.5" fill="#e6edf3" rx="2" opacity="0.6" />
+<rect x="804.7" y="310.0" width="23.2" height="104.0" fill="#e6edf3" rx="2" opacity="0.6" />
+<text x="816.3" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">jul</text>
+<rect x="833.8" y="361.6" width="23.2" height="52.4" fill="#e6edf3" rx="2" opacity="0.6" />
+<path d="M524.6,413.4 L553.8,412.7 L582.9,412.7 L612.1,412.7 L641.2,412.7 L670.4,412.7 L699.6,407.3 L728.8,406.3 L757.9,404.5 L787.1,397.5 L816.3,339.5 L845.4,310.3" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
+<circle cx="845.4" cy="310.3" r="3" fill="#3fb950" />
+<text x="510.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58">monthly bars · cumulative line</text>
+<text x="860.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" text-anchor="end">peak 409</text>
+<rect x="40.0" y="474.0" width="820.0" height="1.0" fill="#21262d" />
+<text x="40.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d8590" letter-spacing="0.4">github.com/m1cch</text>
+<text x="860.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#484f58" text-anchor="end">updated 2026-08-13</text>
+</svg>

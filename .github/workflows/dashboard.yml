@@ -1,0 +1,51 @@
+name: Regenerate profile dashboard
+
+on:
+  schedule:
+    # 04:20 UTC daily — after the contribution calendar has settled for the day.
+    - cron: "20 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/metrics.json"
+      - "scripts/hero.py"
+      - ".github/workflows/dashboard.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render hero SVGs
+        env:
+          # The default GITHUB_TOKEN can read the contributions calendar of the
+          # repository owner, which is all this needs.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python3 scripts/hero.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/; then
+            echo "dashboard unchanged"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git commit -m "chore: regenerate dashboard"
+          git push

@@ -1,0 +1,88 @@
+{
+  "_comment": "Hand-curated, verifiable metrics. Every number here must be traceable to a committed artifact in the linked repo. Update by hand; languages and contributions are pulled live by scripts/hero.py.",
+
+  "identity": {
+    "name": "MATVEY SAFONOV",
+    "role": "ml & systems engineer",
+    "affiliation": "hse university · dsba",
+    "location": "moscow"
+  },
+
+  "kpi": [
+    {
+      "value": "0.978",
+      "label": "macro-F1",
+      "sub": "bacteria genome, 5-class",
+      "source": "ml-hackathon-bacteria/STRATEGY.md — ExtraTrees300, 3-fold CV on 90k rows; baseline DecisionTree(max_depth=5) = 0.641 LB"
+    },
+    {
+      "value": "1.40",
+      "label": "cohen's d",
+      "sub": "human vs bot · p=4.6e-07",
+      "source": "spot-the-bot-maltese/results/clustering/bootstrap_significance.json — B=40 bootstrap, Mann-Whitney p=4.60e-07, 95% CI [8.85, 16.95]"
+    },
+    {
+      "value": "17s",
+      "label": "fit time",
+      "sub": "90k x 286 · 60s budget",
+      "source": "ml-hackathon-bacteria/STRATEGY.md — ExtraTrees300 fit on 90k rows, hard 60s wall-clock limit on 2 vCPU"
+    },
+    {
+      "value": "{contributions}",
+      "label": "contributions",
+      "sub": "last 12 months",
+      "source": "live from GitHub contributions calendar"
+    }
+  ],
+
+  "research": [
+    {
+      "repo": "spot-the-bot-maltese",
+      "problem": "separate LSTM-generated Maltese text from human text",
+      "method": "TF-IDF + SVD embeddings (rank 1024), Wishart clustering, persistent homology",
+      "result": "275 vs 293 clusters, Cohen's d 1.40, p = 4.6e-07",
+      "public": true
+    },
+    {
+      "repo": "ml-hackathon-bacteria",
+      "problem": "5-class bacterial genome classification from 10-mer composition",
+      "method": "286 nucleotide-composition features, ExtraTrees + macro-F1 threshold tuning",
+      "result": "macro-F1 0.978 vs 0.641 baseline, inside a 60s budget",
+      "public": false
+    },
+    {
+      "repo": "hse-ml",
+      "problem": "coursework, contests and kaggle competitions",
+      "method": "linear models, gradient boosting, phoneme classification",
+      "result": "notebooks + C++ contest solutions",
+      "public": false
+    }
+  ],
+
+  "systems": [
+    {
+      "repo": "mlcore-cpp",
+      "what": "ml algorithms from scratch in C++17 with pybind11 bindings",
+      "numbers": "planned",
+      "public": false
+    },
+    {
+      "repo": "algorithms-cpp",
+      "what": "competitive programming solutions, C++17",
+      "numbers": "planned",
+      "public": false
+    },
+    {
+      "repo": "tda-cpp",
+      "what": "persistent homology + Wishart clustering, accelerator for spot-the-bot",
+      "numbers": "planned",
+      "public": false
+    }
+  ],
+
+  "links": {
+    "x": "https://x.com/m1cch_",
+    "github": "https://github.com/m1cch",
+    "email": "mmsafonov@gmail.com"
+  }
+}
