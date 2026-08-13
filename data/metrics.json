@@ -16,16 +16,16 @@
       "source": "ml-hackathon-bacteria/STRATEGY.md — ExtraTrees300, 3-fold CV on 90k rows; baseline DecisionTree(max_depth=5) = 0.641 LB"
     },
     {
-      "value": "1.40",
+      "value": "2.27",
       "label": "cohen's d",
-      "sub": "human vs bot · p=4.6e-07",
-      "source": "spot-the-bot-maltese/results/clustering/bootstrap_significance.json — B=40 bootstrap, Mann-Whitney p=4.60e-07, 95% CI [8.85, 16.95]"
+      "sub": "human vs bot · p=2.9e-12",
+      "source": "spot-the-bot-maltese/results/clustering/bootstrap_significance.json — noise fraction, B=40 bootstrap over independent 30k subsamples, Mann-Whitney p=2.93e-12. Strongest of the four significant metrics; n_clusters d=1.40, Davies-Bouldin d=1.25, Calinski-Harabasz d=1.19, silhouette not significant (p=0.081)"
     },
     {
-      "value": "17s",
-      "label": "fit time",
-      "sub": "90k x 286 · 60s budget",
-      "source": "ml-hackathon-bacteria/STRATEGY.md — ExtraTrees300 fit on 90k rows, hard 60s wall-clock limit on 2 vCPU"
+      "value": "44M",
+      "label": "lstm params",
+      "sub": "perplexity 164 → 98",
+      "source": "spot-the-bot-maltese — word-level LSTM, 2 layers, hidden 512, embedding 300, 50k vocabulary; 8 epochs on the Maltese corpus"
     },
     {
       "value": "{contributions}",
