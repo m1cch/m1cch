@@ -15,36 +15,36 @@
 <text x="265.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.2">COHEN'S D</text>
 <text x="265.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" letter-spacing="0.2">human vs bot · p=2.9e-12</text>
 <rect x="458.0" y="150.0" width="193.0" height="94.0" fill="#f6f8fa" stroke="#d0d7de" rx="8" />
-<text x="474.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#1f2328" font-weight="600" letter-spacing="-0.5">44M</text>
-<text x="474.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.2">LSTM PARAMS</text>
-<text x="474.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" letter-spacing="0.2">perplexity 164 → 98</text>
+<text x="474.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#1f2328" font-weight="600" letter-spacing="-0.5">15.1x</text>
+<text x="474.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.2">VS SKLEARN</text>
+<text x="474.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" letter-spacing="0.2">gradient boosting, C++17</text>
 <rect x="667.0" y="150.0" width="193.0" height="94.0" fill="#f6f8fa" stroke="#d0d7de" rx="8" />
-<text x="683.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#1f2328" font-weight="600" letter-spacing="-0.5">800</text>
+<text x="683.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#1f2328" font-weight="600" letter-spacing="-0.5">801</text>
 <text x="683.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.2">CONTRIBUTIONS</text>
 <text x="683.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" letter-spacing="0.2">last 12 months</text>
 <text x="40.0" y="292.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.6">LANGUAGES</text>
 <text x="510.0" y="292.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#59636e" letter-spacing="1.6">ACTIVITY</text>
 <text x="40.0" y="319.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#1f2328" opacity="0.9">python</text>
 <rect x="136.0" y="310.0" width="288.0" height="8.0" fill="#eaeef2" rx="4" />
-<rect x="136.0" y="310.0" width="121.4" height="8.0" fill="#3572A5" rx="4" />
-<text x="470.0" y="319.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">42.2%</text>
+<rect x="136.0" y="310.0" width="108.2" height="8.0" fill="#3572A5" rx="4" />
+<text x="470.0" y="319.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">37.6%</text>
 <text x="40.0" y="345.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#1f2328" opacity="0.9">jupyter</text>
 <rect x="136.0" y="336.0" width="288.0" height="8.0" fill="#eaeef2" rx="4" />
-<rect x="136.0" y="336.0" width="104.0" height="8.0" fill="#DA5B0B" rx="4" />
-<text x="470.0" y="345.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">36.1%</text>
-<text x="40.0" y="371.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#1f2328" opacity="0.9">html</text>
+<rect x="136.0" y="336.0" width="91.8" height="8.0" fill="#DA5B0B" rx="4" />
+<text x="470.0" y="345.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">31.9%</text>
+<text x="40.0" y="371.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#1f2328" opacity="0.9">c++</text>
 <rect x="136.0" y="362.0" width="288.0" height="8.0" fill="#eaeef2" rx="4" />
-<rect x="136.0" y="362.0" width="33.6" height="8.0" fill="#e34c26" rx="4" />
-<text x="470.0" y="371.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">11.7%</text>
-<text x="40.0" y="397.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#1f2328" opacity="0.9">c++</text>
+<rect x="136.0" y="362.0" width="43.2" height="8.0" fill="#f34b7d" rx="4" />
+<text x="470.0" y="371.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">15.0%</text>
+<text x="40.0" y="397.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#1f2328" opacity="0.9">html</text>
 <rect x="136.0" y="388.0" width="288.0" height="8.0" fill="#eaeef2" rx="4" />
-<rect x="136.0" y="388.0" width="12.5" height="8.0" fill="#f34b7d" rx="4" />
-<text x="470.0" y="397.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">4.3%</text>
+<rect x="136.0" y="388.0" width="29.6" height="8.0" fill="#e34c26" rx="4" />
+<text x="470.0" y="397.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">10.3%</text>
 <text x="40.0" y="423.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#1f2328" opacity="0.9">tex</text>
 <rect x="136.0" y="414.0" width="288.0" height="8.0" fill="#eaeef2" rx="4" />
-<rect x="136.0" y="414.0" width="6.9" height="8.0" fill="#3D6117" rx="4" />
-<text x="470.0" y="423.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">2.4%</text>
-<text x="40.0" y="456.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">bytes of code across public repositories · 1 071 KB</text>
+<rect x="136.0" y="414.0" width="6.1" height="8.0" fill="#3D6117" rx="4" />
+<text x="470.0" y="423.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e" text-anchor="end">2.1%</text>
+<text x="40.0" y="456.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">bytes of code across public repositories · 1 213 KB</text>
 <rect x="510.0" y="414.0" width="350.0" height="1.0" fill="#d8dee4" />
 <rect x="513.0" y="412.0" width="23.2" height="2.0" fill="#1f2328" rx="2" opacity="0.6" />
 <text x="524.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">sep</text>
@@ -63,8 +63,8 @@
 <rect x="775.5" y="401.5" width="23.2" height="12.5" fill="#1f2328" rx="2" opacity="0.6" />
 <rect x="804.7" y="310.0" width="23.2" height="104.0" fill="#1f2328" rx="2" opacity="0.6" />
 <text x="816.3" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">jul</text>
-<rect x="833.8" y="344.3" width="23.2" height="69.7" fill="#1f2328" rx="2" opacity="0.6" />
-<path d="M524.6,413.5 L553.8,412.8 L582.9,412.8 L612.1,412.8 L641.2,412.8 L670.4,412.8 L699.6,407.9 L728.8,407.1 L757.9,405.4 L787.1,399.1 L816.3,345.9 L845.4,310.3" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
+<rect x="833.8" y="343.8" width="23.2" height="70.2" fill="#1f2328" rx="2" opacity="0.6" />
+<path d="M524.6,413.5 L553.8,412.8 L582.9,412.8 L612.1,412.8 L641.2,412.8 L670.4,412.8 L699.6,407.9 L728.8,407.2 L757.9,405.6 L787.1,399.2 L816.3,346.1 L845.4,310.3" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
 <circle cx="845.4" cy="310.3" r="3" fill="#3fb950" />
 <text x="510.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">monthly bars · cumulative line</text>
 <text x="860.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" text-anchor="end">peak 409</text>

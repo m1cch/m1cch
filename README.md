@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/hero-light.svg" />
-  <img alt="Matvey Safonov — ML &amp; systems engineer. macro-F1 0.978 on 5-class bacterial genome classification; Cohen's d 2.27 separating human from LSTM-generated Maltese text; a 44M-parameter LSTM trained from scratch." src="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/hero-dark.svg" />
+  <img alt="Matvey Safonov — ML &amp; systems engineer. macro-F1 0.978 on 5-class bacterial genome classification; Cohen's d 2.27 separating human from LSTM-generated Maltese text; and a from-scratch C++17 ML library that fits gradient boosting 15x faster than scikit-learn." src="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/hero-dark.svg" />
 </picture>
 
 I work in **Python** and **C++**: Python for research, modelling and the pipelines
@@ -98,14 +98,43 @@ the actual problem.
 
 ## systems &amp; c++
 
-Low-level work — mostly ML algorithms rebuilt from scratch to know what the libraries
-are actually doing, and benchmarked against them.
+ML algorithms rebuilt from scratch to know what the libraries are actually doing —
+then benchmarked against them.
 
-| project | what | status |
-|---|---|---|
-| **algorithms-cpp** | competitive programming solutions, C++17 | extracting from `hse-ml` |
-| **mlcore-cpp** | linear models, kNN + KD-tree, decision tree, random forest, gradient boosting, k-means, PCA/SVD — C++17, GoogleTest, benchmarked against scikit-learn, exposed through pybind11 | in progress |
-| **tda-cpp** | persistent homology and Wishart clustering in C++ — an accelerator for the pipeline above, where clustering is the bottleneck | planned |
+### [mlcore-cpp](https://github.com/m1cch/mlcore-cpp) — a machine learning library in C++17
+
+Header-only, no dependencies: linear and logistic regression, kNN over a KD-tree with
+hypersphere pruning, CART trees, random forest, extremely randomised trees, gradient
+boosting with Newton leaf values and histogram splitting, k-means++, PCA and truncated
+SVD via cyclic Jacobi. 42 tests, clean under `-Wall -Wextra -Wpedantic` and under
+address + undefined sanitizers, CI on gcc and clang across Linux and macOS.
+
+Benchmarked against scikit-learn 1.9 on identical data — 20k × 20, 5 classes, both
+sides single-threaded:
+
+| model | mlcore | sklearn | |
+|---|---|---|---|
+| gradient boosting (50) | **0.729s** | 11.000s | **15.1× faster**, macro-F1 0.971 vs 0.964 |
+| extra trees (100) | 0.333s | 0.351s | parity |
+| logistic regression | 0.096s | **0.032s** | slower, and F1 0.657 vs 0.985 |
+
+The boosting gap is histogram splitting against sklearn's exact-split implementation,
+not C++ against Python. The logistic regression gap is real: full-batch gradient
+descent has not converged where lbfgs has. Both are written up in the repo, along with
+the split-search rewrite that took the decision tree from **15.33s to 0.127s** —
+rescanning every sample per candidate threshold, replaced by one sort and a sweep with
+incremental class histograms.
+
+### [algorithms-cpp](https://github.com/m1cch/algorithms-cpp)
+
+17 competitive programming solutions, C++17. Five reduce to maximum flow and share a
+Dinic implementation with level BFS and blocking-flow DFS; plus DSU, graph traversal
+and DP with memoisation. 26 sample tests, all passing.
+
+### planned
+
+`tda-cpp` — persistent homology and Wishart clustering in C++, an accelerator for the
+Maltese pipeline above, where clustering is the bottleneck.
 
 Also: ACOS coursework — C, RISC-V assembly, systems programming.
 
