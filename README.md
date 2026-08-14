@@ -26,9 +26,11 @@ My work carries the pipeline to **Maltese** — the only Semitic language writte
 Latin script with EU official status, and a low-resource one: neither a usable corpus
 nor a reliable lemmatiser existed, so both had to be built.
 
-**Pipeline.** 110k raw documents → 36,452 source-balanced human texts (~39M tokens) →
-TF-IDF, 93k × 36k at density 0.003 → truncated SVD, rank 1024 → 4-gram clouds of 300k
-points → Wishart density clustering and persistent homology, run independently.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/pipeline-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/pipeline-light.svg" />
+  <img alt="Pipeline: 110k raw documents to 36,452 balanced texts, through the hybrid lemmatiser L2 into a TF-IDF matrix and rank-1024 SVD dictionary; the same lemma tokens train a 44M-parameter LSTM generator; both corpora become 300k-point 4-gram clouds, analysed independently by Wishart clustering and persistent homology and compared under a B=40 bootstrap." src="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/pipeline-dark.svg" />
+</picture>
 
 **Contribution — hybrid lemmatiser L2.** Stanza tags Maltese parts of speech reliably
 but its lemmas are not lexically grounded. L2 keeps only the POS and resolves the lemma
@@ -44,6 +46,12 @@ empirical distribution of human text lengths.
 
 **Significance.** Bootstrap over B=40 independent 30k-point subsamples, two-sample
 Mann–Whitney, effect size as Cohen's d:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/effects-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/effects-light.svg" />
+  <img alt="Effect sizes with 95% confidence intervals: noise fraction d=2.27, clusters d=1.40, Davies-Bouldin d=1.25, Calinski-Harabasz d=1.19 all significant; silhouette d=0.41 with an interval crossing zero, not significant." src="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/effects-dark.svg" />
+</picture>
 
 | metric | human | bot | d | p |
 |---|---|---|---|---|
@@ -112,11 +120,19 @@ address + undefined sanitizers, CI on gcc and clang across Linux and macOS.
 Benchmarked against scikit-learn 1.9 on identical data — 20k × 20, 5 classes, both
 sides single-threaded:
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/bench-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/bench-light.svg" />
+  <img alt="Speed relative to scikit-learn on a log ratio axis: gradient boosting 15.1x faster, decision tree 1.30x, extra trees 1.05x at parity; random forest 0.76x, logistic regression 0.33x and kNN 0.13x slower." src="https://raw.githubusercontent.com/m1cch/m1cch/main/assets/bench-dark.svg" />
+</picture>
+
 | model | mlcore | sklearn | |
 |---|---|---|---|
 | gradient boosting (50) | **0.729s** | 11.000s | **15.1× faster**, macro-F1 0.971 vs 0.964 |
 | extra trees (100) | 0.333s | 0.351s | parity |
+| random forest (100) | 2.736s | **2.082s** | 0.76× — 11.4× faster with threads |
 | logistic regression | 0.096s | **0.032s** | slower, and F1 0.657 vs 0.985 |
+| kNN, 5k queries | 0.344s | **0.045s** | 0.13× — sklearn's search is BLAS-vectorised |
 
 The boosting gap is histogram splitting against sklearn's exact-split implementation,
 not C++ against Python. The logistic regression gap is real: full-batch gradient

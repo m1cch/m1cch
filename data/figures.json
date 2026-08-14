@@ -1,0 +1,48 @@
+{
+  "_comment": "Figure data, transcribed from committed result artifacts. Each block names the file it came from so any number on the profile can be traced back.",
+
+  "effects": {
+    "title": "Human vs LSTM-generated Maltese text",
+    "subtitle": "standardised mean difference over B=40 bootstrap subsamples of 300k 4-grams",
+    "source": "spot-the-bot-maltese/results/clustering/bootstrap_significance.json",
+    "note": "Cohen's d with 95% CI. CI computed from the Hedges standard error for two independent samples of size 40: sqrt((n1+n2)/(n1*n2) + d^2/(2*(n1+n2))). Significance is the reported two-sample Mann-Whitney p.",
+    "rows": [
+      { "label": "noise fraction",      "d": 2.270, "p": 2.93e-12, "human": "0.709 ± 0.010",   "bot": "0.730 ± 0.009" },
+      { "label": "clusters",            "d": 1.397, "p": 4.60e-07, "human": "276.2 ± 8.3",     "bot": "289.1 ± 10.1" },
+      { "label": "Davies–Bouldin",      "d": 1.245, "p": 2.59e-06, "human": "1.001 ± 0.087",   "bot": "1.144 ± 0.138" },
+      { "label": "Calinski–Harabasz",   "d": 1.186, "p": 1.69e-06, "human": "278.8 ± 38.4",    "bot": "348.9 ± 74.3" },
+      { "label": "silhouette",          "d": 0.413, "p": 8.07e-02, "human": "0.355 ± 0.012",   "bot": "0.361 ± 0.015" }
+    ],
+    "n": 40
+  },
+
+  "bench": {
+    "title": "mlcore-cpp against scikit-learn",
+    "subtitle": "20 000 × 20, 5 classes · both single-threaded · scikit-learn 1.9.0 · g++ -O2",
+    "source": "mlcore-cpp/README.md — reproduce with ./build/bench then bench/bench_sklearn.py",
+    "_phase_note": "Each row is timed on the phase that dominates that model. Trees and boosting are fit-bound; kNN does no work at fit time beyond storing the training set, so its cost is the 5 000 test queries.",
+    "rows": [
+      { "label": "gradient boosting (50)", "phase": "fit", "mine": 0.729, "theirs": 11.000, "f1_mine": 0.9706, "f1_theirs": 0.9639 },
+      { "label": "decision tree (depth 12)", "phase": "fit", "mine": 0.127, "theirs": 0.165, "f1_mine": 0.8850, "f1_theirs": 0.8878 },
+      { "label": "extra trees (100)", "phase": "fit", "mine": 0.333, "theirs": 0.351, "f1_mine": 0.9804, "f1_theirs": 0.9800 },
+      { "label": "random forest (100)", "phase": "fit", "mine": 2.736, "theirs": 2.082, "f1_mine": 0.9756, "f1_theirs": 0.9730 },
+      { "label": "logistic regression", "phase": "fit", "mine": 0.096, "theirs": 0.032, "f1_mine": 0.6572, "f1_theirs": 0.9850 },
+      { "label": "kNN (k=5)", "phase": "predict", "mine": 0.344, "theirs": 0.045, "f1_mine": 0.9686, "f1_theirs": 0.9740 }
+    ]
+  },
+
+  "pipeline": {
+    "title": "Spot the Bot — Maltese",
+    "source": "spot-the-bot-maltese",
+    "stages": [
+      { "id": "corpus",  "label": "corpus",          "detail": "110k raw docs\n36 452 texts · 39M tokens" },
+      { "id": "lemma",   "label": "lemmatiser L2",   "detail": "Stanza POS + Ġabra\n1.3M word forms" },
+      { "id": "svd",     "label": "TF-IDF → SVD",    "detail": "93k × 36k, density 0.003\ntruncated, rank 1024" },
+      { "id": "lstm",    "label": "LSTM generator",  "detail": "44M params\nperplexity 164 → 98" },
+      { "id": "clouds",  "label": "4-gram clouds",   "detail": "300k points each\nhuman and bot" },
+      { "id": "wishart", "label": "Wishart",         "detail": "density clustering\nk=11, h=1" },
+      { "id": "topo",    "label": "persistent homology", "detail": "Vietoris–Rips\nH0, H1 over 5 runs" },
+      { "id": "stats",   "label": "bootstrap",       "detail": "B=40 · Mann–Whitney\n4 of 5 metrics significant" }
+    ]
+  }
+}

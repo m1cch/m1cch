@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" role="img">
+<title>Spot the Bot — Maltese</title>
+<desc>Pipeline: corpus, hybrid lemmatiser, SVD dictionary, LSTM generator, n-gram clouds, then clustering and topology compared under a bootstrap.</desc>
+<rect x="0.5" y="0.5" width="899.0" height="429.0" fill="#ffffff" stroke="#d0d7de" stroke-width="1" rx="14" />
+<text x="40.0" y="50.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#1f2328" font-weight="600">Spot the Bot — Maltese</text>
+<text x="40.0" y="70.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#59636e">two independent methods over the same n-gram clouds</text>
+<path d="M212.0,123.0 H224.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M224.0,119.0 L232.0,123.0 L224.0,127.0 Z" fill="#d0d7de" />
+<path d="M404.0,123.0 H416.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M416.0,119.0 L424.0,123.0 L416.0,127.0 Z" fill="#d0d7de" />
+<path d="M596.0,123.0 H618.0 V170.0 H632.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M632.0,166.0 L640.0,170.0 L632.0,174.0 Z" fill="#d0d7de" />
+<path d="M596.0,217.0 H618.0 V170.0 H632.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M632.0,166.0 L640.0,170.0 L632.0,174.0 Z" fill="#d0d7de" />
+<path d="M510.0,154.0 V186.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="4 3" />
+<path d="M506.0,178.0 L510.0,186.0 L514.0,178.0 Z" fill="#d0d7de" />
+<path d="M726.0,201.0 V262 H318.0 V266.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M314.0,266.0 L318.0,274.0 L322.0,266.0 Z" fill="#d0d7de" />
+<path d="M404.0,305.0 H416.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M416.0,301.0 L424.0,305.0 L416.0,309.0 Z" fill="#d0d7de" />
+<path d="M596.0,305.0 H632.0" fill="none" stroke="#d0d7de" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M632.0,301.0 L640.0,305.0 L632.0,309.0 Z" fill="#d0d7de" />
+<rect x="40.0" y="92.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="8" />
+<text x="52.0" y="114.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">corpus</text>
+<text x="52.0" y="130.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">110k raw docs</text>
+<text x="52.0" y="142.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">36 452 texts · 39M tokens</text>
+<rect x="232.0" y="92.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="8" />
+<text x="244.0" y="114.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">lemmatiser L2</text>
+<text x="244.0" y="130.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">Stanza POS + Ġabra</text>
+<text x="244.0" y="142.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">1.3M word forms</text>
+<rect x="424.0" y="92.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="8" />
+<text x="436.0" y="114.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">TF-IDF → SVD</text>
+<text x="436.0" y="130.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">93k × 36k, density 0.003</text>
+<text x="436.0" y="142.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">truncated, rank 1024</text>
+<rect x="424.0" y="186.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="8" />
+<text x="436.0" y="208.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">LSTM generator</text>
+<text x="436.0" y="224.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">44M params</text>
+<text x="436.0" y="236.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">perplexity 164 → 98</text>
+<rect x="640.0" y="139.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="8" />
+<text x="652.0" y="161.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">4-gram clouds</text>
+<text x="652.0" y="177.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">300k points each</text>
+<text x="652.0" y="189.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">human and bot</text>
+<rect x="232.0" y="274.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="8" />
+<text x="244.0" y="296.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">Wishart</text>
+<text x="244.0" y="312.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">density clustering</text>
+<text x="244.0" y="324.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">k=11, h=1</text>
+<rect x="424.0" y="274.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" rx="8" />
+<text x="436.0" y="296.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">persistent homology</text>
+<text x="436.0" y="312.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">Vietoris–Rips</text>
+<text x="436.0" y="324.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">H0, H1 over 5 runs</text>
+<rect x="640.0" y="274.0" width="172.0" height="62.0" fill="#f6f8fa" stroke="#1a7f37" stroke-width="1.5" rx="8" />
+<text x="652.0" y="296.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#1f2328" font-weight="600">bootstrap</text>
+<text x="652.0" y="312.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">B=40 · Mann–Whitney</text>
+<text x="652.0" y="324.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f">4 of 5 metrics significant</text>
+<rect x="40.0" y="378.0" width="820.0" height="1.0" fill="#d8dee4" />
+<text x="40.0" y="398.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">dashed edge: the generator reuses the SVD lemma tokens, so its output drops straight into the same n-gram construction</text>
+<text x="40.0" y="412.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">clustering and topology are computed independently and agree — that agreement is the result</text>
+</svg>
