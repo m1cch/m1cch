@@ -8,8 +8,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "data/metrics.json"
-      - "scripts/hero.py"
+      - "data/**"
+      - "scripts/**"
       - ".github/workflows/dashboard.yml"
 
 permissions:
@@ -37,6 +37,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: ${{ github.repository_owner }}
         run: python3 scripts/hero.py
+
+      # Figures are driven by committed data, not by the API — but they share
+      # the palette in svgkit.py, so a token change has to reach them too.
+      - name: Render figures
+        run: python3 scripts/figures.py
 
       - name: Commit if changed
         run: |
