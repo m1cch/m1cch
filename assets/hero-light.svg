@@ -47,28 +47,28 @@
 <text x="40.0" y="456.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">bytes of code across public repositories · 1 213 KB</text>
 <rect x="510.0" y="414.0" width="350.0" height="1.0" fill="#d8dee4" />
 <rect x="513.0" y="412.0" width="23.2" height="2.0" fill="#1f2328" rx="2" opacity="0.6" />
-<text x="524.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">sep</text>
-<rect x="542.2" y="412.0" width="23.2" height="2.0" fill="#1f2328" rx="2" opacity="0.6" />
+<text x="524.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">oct</text>
+<rect x="542.2" y="412.0" width="23.2" height="2.0" fill="#8c959f" rx="2" opacity="0.25" />
 <rect x="571.3" y="412.0" width="23.2" height="2.0" fill="#8c959f" rx="2" opacity="0.25" />
-<text x="582.9" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">nov</text>
+<text x="582.9" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">dec</text>
 <rect x="600.5" y="412.0" width="23.2" height="2.0" fill="#8c959f" rx="2" opacity="0.25" />
 <rect x="629.7" y="412.0" width="23.2" height="2.0" fill="#8c959f" rx="2" opacity="0.25" />
-<text x="641.2" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">jan</text>
-<rect x="658.8" y="412.0" width="23.2" height="2.0" fill="#8c959f" rx="2" opacity="0.25" />
-<rect x="688.0" y="407.9" width="23.2" height="6.1" fill="#1f2328" rx="2" opacity="0.6" />
-<text x="699.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">mar</text>
-<rect x="717.2" y="412.0" width="23.2" height="2.0" fill="#1f2328" rx="2" opacity="0.6" />
-<rect x="746.3" y="411.9" width="23.2" height="2.1" fill="#1f2328" rx="2" opacity="0.6" />
-<text x="757.9" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">may</text>
-<rect x="775.5" y="406.1" width="23.2" height="7.9" fill="#1f2328" rx="2" opacity="0.6" />
-<rect x="804.7" y="348.5" width="23.2" height="65.5" fill="#1f2328" rx="2" opacity="0.6" />
-<text x="816.3" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">jul</text>
-<rect x="833.8" y="310.0" width="23.2" height="104.0" fill="#1f2328" rx="2" opacity="0.6" />
-<path d="M524.6,413.6 L553.8,413.2 L582.9,413.2 L612.1,413.2 L641.2,413.2 L670.4,413.2 L699.6,409.8 L728.8,409.5 L757.9,408.3 L787.1,404.0 L816.3,367.6 L845.4,310.0" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
-<circle cx="845.4" cy="310.0" r="3" fill="#3fb950" />
+<text x="641.2" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">feb</text>
+<rect x="658.8" y="407.9" width="23.2" height="6.1" fill="#1f2328" rx="2" opacity="0.6" />
+<rect x="688.0" y="412.0" width="23.2" height="2.0" fill="#1f2328" rx="2" opacity="0.6" />
+<text x="699.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">apr</text>
+<rect x="717.2" y="411.9" width="23.2" height="2.1" fill="#1f2328" rx="2" opacity="0.6" />
+<rect x="746.3" y="406.1" width="23.2" height="7.9" fill="#1f2328" rx="2" opacity="0.6" />
+<text x="757.9" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">jun</text>
+<rect x="775.5" y="348.5" width="23.2" height="65.5" fill="#1f2328" rx="2" opacity="0.6" />
+<rect x="804.7" y="310.0" width="23.2" height="104.0" fill="#1f2328" rx="2" opacity="0.6" />
+<text x="816.3" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8c959f" text-anchor="middle">aug</text>
+<rect x="833.8" y="412.0" width="23.2" height="2.0" fill="#8c959f" rx="2" opacity="0.25" />
+<path d="M524.6,413.6 L553.8,413.6 L582.9,413.6 L612.1,413.6 L641.2,413.6 L670.4,410.2 L699.6,409.8 L728.8,408.7 L757.9,404.3 L787.1,368.0 L816.3,310.4 L845.4,310.4" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
+<circle cx="845.4" cy="310.4" r="3" fill="#3fb950" />
 <text x="510.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f">monthly bars · cumulative line</text>
 <text x="860.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#8c959f" text-anchor="end">peak 649</text>
 <rect x="40.0" y="474.0" width="820.0" height="1.0" fill="#d8dee4" />
 <text x="40.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#59636e" letter-spacing="0.4">github.com/m1cch</text>
-<text x="860.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8c959f" text-anchor="end">updated 2026-08-31</text>
+<text x="860.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8c959f" text-anchor="end">updated 2026-09-01</text>
 </svg>
