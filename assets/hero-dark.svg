@@ -19,7 +19,7 @@
 <text x="474.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.2">VS SKLEARN</text>
 <text x="474.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" letter-spacing="0.2">gradient boosting, C++17</text>
 <rect x="667.0" y="150.0" width="193.0" height="94.0" fill="#161b22" stroke="#30363d" rx="8" />
-<text x="683.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#e6edf3" font-weight="600" letter-spacing="-0.5">1 171</text>
+<text x="683.0" y="192.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="30" fill="#e6edf3" font-weight="600" letter-spacing="-0.5">1 189</text>
 <text x="683.0" y="214.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.2">CONTRIBUTIONS</text>
 <text x="683.0" y="230.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" letter-spacing="0.2">last 12 months</text>
 <text x="40.0" y="292.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#7d8590" letter-spacing="1.6">LANGUAGES</text>
@@ -54,21 +54,21 @@
 <rect x="600.5" y="412.0" width="23.2" height="2.0" fill="#484f58" rx="2" opacity="0.25" />
 <rect x="629.7" y="412.0" width="23.2" height="2.0" fill="#484f58" rx="2" opacity="0.25" />
 <text x="641.2" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">feb</text>
-<rect x="658.8" y="407.9" width="23.2" height="6.1" fill="#e6edf3" rx="2" opacity="0.6" />
+<rect x="658.8" y="408.0" width="23.2" height="6.0" fill="#e6edf3" rx="2" opacity="0.6" />
 <rect x="688.0" y="412.0" width="23.2" height="2.0" fill="#e6edf3" rx="2" opacity="0.6" />
 <text x="699.6" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">apr</text>
-<rect x="717.2" y="411.9" width="23.2" height="2.1" fill="#e6edf3" rx="2" opacity="0.6" />
-<rect x="746.3" y="406.1" width="23.2" height="7.9" fill="#e6edf3" rx="2" opacity="0.6" />
+<rect x="717.2" y="412.0" width="23.2" height="2.0" fill="#e6edf3" rx="2" opacity="0.6" />
+<rect x="746.3" y="406.3" width="23.2" height="7.7" fill="#e6edf3" rx="2" opacity="0.6" />
 <text x="757.9" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">jun</text>
-<rect x="775.5" y="348.5" width="23.2" height="65.5" fill="#e6edf3" rx="2" opacity="0.6" />
+<rect x="775.5" y="349.6" width="23.2" height="64.4" fill="#e6edf3" rx="2" opacity="0.6" />
 <rect x="804.7" y="310.0" width="23.2" height="104.0" fill="#e6edf3" rx="2" opacity="0.6" />
 <text x="816.3" y="430.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#484f58" text-anchor="middle">aug</text>
-<rect x="833.8" y="412.0" width="23.2" height="2.0" fill="#484f58" rx="2" opacity="0.25" />
-<path d="M524.6,413.6 L553.8,413.6 L582.9,413.6 L612.1,413.6 L641.2,413.6 L670.4,410.2 L699.6,409.8 L728.8,408.7 L757.9,404.3 L787.1,368.0 L816.3,310.4 L845.4,310.4" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
-<circle cx="845.4" cy="310.4" r="3" fill="#3fb950" />
+<rect x="833.8" y="412.0" width="23.2" height="2.0" fill="#e6edf3" rx="2" opacity="0.6" />
+<path d="M524.6,413.6 L553.8,413.6 L582.9,413.6 L612.1,413.6 L641.2,413.6 L670.4,410.2 L699.6,409.9 L728.8,408.8 L757.9,404.5 L787.1,368.7 L816.3,311.0 L845.4,310.3" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-linejoin="round" opacity="0.9" />
+<circle cx="845.4" cy="310.3" r="3" fill="#3fb950" />
 <text x="510.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58">monthly bars · cumulative line</text>
-<text x="860.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" text-anchor="end">peak 649</text>
+<text x="860.0" y="448.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#484f58" text-anchor="end">peak 660</text>
 <rect x="40.0" y="474.0" width="820.0" height="1.0" fill="#21262d" />
 <text x="40.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d8590" letter-spacing="0.4">github.com/m1cch</text>
-<text x="860.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#484f58" text-anchor="end">updated 2026-09-01</text>
+<text x="860.0" y="498.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#484f58" text-anchor="end">updated 2026-09-02</text>
 </svg>
